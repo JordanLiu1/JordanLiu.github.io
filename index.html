@@ -1,7 +1,8 @@
 
 <!DOCTYPE html>
+<html lang="en">
 <head>
-  <html lang="en">
+  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Website</title>
@@ -11,9 +12,9 @@
     header {
       align-items: center;
       display: flex;
-      align-content: center;
       flex-direction: row;
-      align-content: space-between;
+      justify-content: space-between;
+      flex-wrap: wrap;
       background-color: #B10D0D;
     
       
@@ -21,9 +22,11 @@
     .navbar {
         list-style:none;
         align-items: center;
+        justify-content: space-between;
       display: flex;
       justify-content: flex-end
-      border blue; border-width: 10px;
+      border; border-width: 10px;
+      
         
       }
     }
@@ -35,31 +38,46 @@
     font-family:'Times New Roman', Times, serif ;
     font-size: 96px;
     text-align: left;
+    margin:10px;
+   }
+    p {
+      margin: 20px
+    }
+   .infoboxb {
+    display:flex;
+      justify-content: flex-start;
+      align-items: baseline;
+      height: 200px;
+      background-color: white;
    }
     .infobox1 {
-      align-items: center;
-      height: 50px;
+      display:flex;
+      justify-content: flex-start;
+      align-items: baseline;
+      height: 300px;
       background-color: gray;
-      border: black 10px;
-      
-      
+      border: 5px solid black;
+      margin: 5px;
     }
-    .infobox2 {
-    height: 50px;
-    background-color: gray;
-    border: black 10px ;
-
-    }
-    .infobox3 {
-    height: 50px;
-    background-color: gray;
-    border: black 10px;
-    border-width: 10px;
+    .row {
+      align-self: baseline;
     }
     button {
-      margin: 100px;
+    
+      margin: 50px;
+      height: 50px;
+      width: 200px;
+      display:flex;
+      
     }
-   }
+    .circles {
+      
+    }
+    .searchbar {
+      justify-content: flex-end;
+      flex-direction: row;
+    }
+      
   </style>
   <header>
     <img src="https://i.imgur.com/mdC85fa.png" id=logo>
@@ -67,7 +85,11 @@
       <li><a href="#">Home</a></li>
       <li><a href="#">About</a></li>
       <li><a href="#">Contact</a></li>
-  </div>
+    </div>
+  <!-- <div>
+    <div class="search bar" style="width:200px; height:50px; background-color:gray; border: black ;">Search</div>
+    <button type="button" class="search bar" style="width:50px; height:50px; background-color:gray ;">Enter
+  </div> -->
   </header>
 </head>
 
@@ -80,17 +102,20 @@
   </p>
   <button type="button">Learn More</button>
   <body>
-    <!-- <div class="container">
-      <div class="row2">
-        <div class="col-4 infobox1"></div>
-        <div class="col-4 infobox2"></div>
-        <div class="col-4 infobox3"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-2 infoboxb"></div>
+        <div class="col-2 infoboxb"></div>
+        <div class="col-2 infoboxb"></div>
       </div>
-    </div> -->
-     <div class="infobox1" style="width:100px; height:100px; background-color:gray; "></div>
-    <div class="infobox2"style="width:100px; height:100px; background-color:gray; "></div>
-    <div class="infobox3"style="width:100px; height:100px; background-color:gray; "></div>
-    <div style="width:100px; height:100px; background-color:gray ; border-radius:50%;"></div>
+    </div>
+    <div class="container1">
+      <div class="row">
+        <div class="col-2 infobox1"></div>
+        <div class="col-2 infobox1"></div>
+        <div class="col-2 infobox1"></div>
+      </div>
+    </div>
   <script src="script.js"></script>
 </body>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
