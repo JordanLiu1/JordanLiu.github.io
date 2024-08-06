@@ -17,20 +17,7 @@
       flex-wrap: wrap;
       background-color: #B10D0D;
     }
-      #contact-list {
-        display: flex;
-        flex-wrap: wrap;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        list-style:none;
-        color:black;
-      font-size: 20px;
-      }
-      .contact-listcontain {
-        display: flex;
-        justify-content: flex-end;
-      }
+      
       
     .navbar {
       display: flex;
@@ -42,6 +29,7 @@
       
    
       }
+
       a {
         color: black;
       }
@@ -88,7 +76,7 @@
     }
     .searchbar {
       display:flex;
-      flex-wrap:wrap;
+      flex-wrap:nowrap;
       flex-direction: row;
       width: 200px;
       margin: 0px;
@@ -97,7 +85,6 @@
       display:flex;
       align-items: center;
       border: black 10px;
-      width: 150px;
     }
     .img {
       display:flex;
@@ -123,42 +110,20 @@
     </div>
   <div>
     <div class="searchbar">
-      <input class="search"type="text" id="new-contact" placeholder="Add your contact..."></input>
-      <button onclick = 'addcontact()' type="button" id="searchbutton" style="width:50px; height:50px; background-color:gray ;">Enter</button>
+      <div class="search" style="width:200px; height:50px; background-color:gray; border: black ;">Search</div>
+     <button type="button" id="searchbutton" style="width:50px; height:50px; background-color:gray ;">Enter
+    <div>
   </div>
   </header>
 </head>
+
 <body>
-<div class='contact-listcontain'>
-  <div>
-  <ul id="contact-list"></ul>
-  </div>
-</div>
   <h1>
     Heading 1
   </h1>
   <p>
     Paragraph 1<br>
-  </p>
-  <button onclick = 'whenClick()' id=learnmore type="button">Learn More</button>
-  <body>
-    <div class="meimage">
-      <div class="img" style="width:200px; height:50px; background-color:gray; border: black ;">IMG</div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-2 infoboxb"></div>
-        <div class="col-2 infoboxb"></div>
-        <div class="col-2 infoboxb"></div>
-      </div>
-    </div>
-    <div class="container1">
-      <div class="row">
-        <div class="col-2 infobox1"></div>
-        <div class="col-2 infobox1"></div>
-        <div class="col-2 infobox1"></div>
-      </div>
-    </div>
+ 
   <script src="script.js"></script>
 </body>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
