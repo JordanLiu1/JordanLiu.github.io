@@ -28,6 +28,11 @@ document.getElementById('searchbutton').addEventListener('click', addcontact)
     document.getElementById('contact-list').appendChild(li);
 
     document.getElementById('new-contact').value = '';
-    alert("thankyou")
+    alert("Thank You! Reach you soon!")
 };
+let colorbutton = document.getElementById('searchbutton')
+function changebackground() {
+    document.querySelector('.container2').style.backgroundColor = `rgb(128,128,128)`
+}
+colorbutton.addEventListener('click', changebackground)
 

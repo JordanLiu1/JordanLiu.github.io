@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Website</title>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" /><link>
   <style>
     header {
       align-items: center;
@@ -16,18 +16,40 @@
       justify-content: space-between;
       flex-wrap: wrap;
       background-color: #B10D0D;
+      width:1950px;
+      opacity: 85%;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      z-index: 1;
     }
-      
+      #contact-list {
+        display: flex;
+        flex-wrap: wrap;
+        list-style:none;
+        color:black;
+        font-size: 20px;
+        display:block;
+      }
+      .contact-listcontain {
+        display: flex;
+        justify-content: flex-end;
+      }
       
     .navbar {
       display: flex;
         list-style:none;
         flex-direction: row;
         justify-content: space-between;
-        border: none; width: 500px;
+        border: none;
+      width: 500px;
+      
+   
       }
       a {
         color: black;
+        font-size: 20px;
+        display: block;
       }
    #logo{
     width: 50px;
@@ -47,8 +69,8 @@
       justify-content: flex-start;
       align-items: baseline;
       width: 50px;
-      height: 120px;
-      background-color: #EFA8B8;
+      height: 200px;
+      background-color: transparent;
    }
     .infobox1 {
       display:flex;
@@ -57,7 +79,7 @@
       height: 300px;
       background-color: gray;
       border: 5px solid black;
-      margin: 5px;
+      margin: 10px;
     }
     .row {
       align-self: baseline;
@@ -70,31 +92,54 @@
       align-items: center;
       justify-content: center;
     }
+    #learnmore:hover {
+    background-color: transparent;
+    }
     .searchbar {
       display:flex;
       flex-wrap:nowrap;
       flex-direction: row;
       width: 200px;
-      margin: 0px;
+      margin: 50px;
+      border:black 10px;
     }
     .search {
       display:flex;
       align-items: center;
       border: black 10px;
+      width: 150px;
+      background-color: #EFA8B8;
+      color:white;
     }
+    #searchbutton {
+      color: black;
+    }
+    
     .img {
+      position:relative;
+      left: 1190px;
+      top: -710px;
       display:flex;
       align-items: center;
-      justify-content: center;
-    }
-    .meimage {
-      display:flex;
       justify-content: flex-end;
-      margin: 50px;
-      
+      height: 650px;
     }
+      
     body {
       background-color: #EFA8B8;
+      background-image: url(https://i.imgur.com/IVBG1Ck.png);
+      background-size: cover; 
+    }
+    .container1 {
+      position:relative;
+      left: 100px;
+      top:130px;
+    }
+    .container2 {
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color:#EFA8B8 ;
     }
   </style>
   <header>
@@ -106,23 +151,38 @@
     </div>
   <div>
     <div class="searchbar">
-      <div class="search" style="width:200px; height:50px; background-color:gray; border: black ;">Search</div>
-     <button type="button" id="searchbutton" style="width:50px; height:50px; background-color:gray ;">Enter
-    <div>
+      <input class="search"type="text" id="new-contact" placeholder=" Add your contact..."></input>
+      <button type="button" id="searchbutton" style="width:50px; height:50px; background-color: gray ;">Enter</button>
   </div>
   </header>
 </head>
-
 <body>
+<div class='contact-listcontain'>
+  <div class = container2>
+  <ul id="contact-list"></ul>
+  </div>
+</div>
   <h1>
     Heading 1
   </h1>
   <p>
     Paragraph 1<br>
- 
+  </p>
+    </div>
+    <div class="container1">
+      <div class="row">
+        <div class="col-2 infobox1">Intrests</div>
+        <div class="col-2 infobox1"></div>
+        <div class="col-2 infobox1"></div>
+      </div>
+    </div>
+<footer>
+
+</footer>
   <script src="script.js"></script>
 </body>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </html>
+
