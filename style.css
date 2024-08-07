@@ -158,7 +158,7 @@ background-color: transparent;
 .img {
   position:relative;
   left: 1310px;
-  top: -1070px;
+  top: -1150px;
   display:flex;
   align-items: center;
   justify-content: flex-end;
@@ -203,5 +203,30 @@ text {
 }
 .bussinessidea {
   display:flex;
-  justify-content:flex-end;
+  align-content: center;
+  justify-content: space-between;
+  position: relative;
+  left: 550px;
+  margin: 10px;
+}
+h3 {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 450;
+  font-style: normal;
+  font-size: 96px;
+  text-align: center;
+  margin:20px;
+  position:relative;
+  top: 60px;
+}
+.p2 {
+  margin: 20px;
+  position:relative;
+  text-align: center;
+  left: 10px;
+  top: 60px;
+  font-family: "Kosugi", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
 }
