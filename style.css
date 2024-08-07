@@ -217,14 +217,14 @@ h3 {
   text-align: center;
   margin:20px;
   position:relative;
-  top: 60px;
+  top: 0px;
 }
-.p2 {
+p2 {
   margin: 20px;
   position:relative;
   text-align: center;
-  left: 10px;
-  top: 60px;
+  left: 450px;
+  top: -10px;
   font-family: "Kosugi", sans-serif;
   font-weight: 500;
   font-style: normal;
