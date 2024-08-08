@@ -28,7 +28,7 @@ document.getElementById('searchbutton').addEventListener('click', addcontact)
     document.getElementById('contact-list').appendChild(li);
 
     document.getElementById('new-contact').value = '';
-    alert("Thank You! Reach you soon!")
+    alert("Thank You! Contact receivied")
 };
 let colorbutton = document.getElementById('searchbutton')
 function changebackground() {
