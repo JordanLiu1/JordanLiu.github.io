@@ -36,4 +36,14 @@ function changebackground() {
 }
 colorbutton.addEventListener('click', changebackground)
 
+let websitesdisplay = document.getElementById('websitebutton')
+function runWebsite() {
+    window.open('https://jordanl141.wixsite.com/artai')
+}
+websitesdisplay.addEventListener('click', runWebsite)
+
+// const displaybox = document.getElementById("#displaybox");
+// function changelikesbackground(link) {
+//     displaybox.style.backgroundImage = "link"
+// }
 

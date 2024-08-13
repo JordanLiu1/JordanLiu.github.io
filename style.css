@@ -59,6 +59,11 @@ footer {
     position: relative;
     left: 20px;
   }
+  a:hover {
+    background-color: #EFA8B8;
+    opacity: 45%;
+    border-radius: 27%;
+  }
 #logo{
 width: 50px;
 margin: 10px;
@@ -75,6 +80,7 @@ margin:20px;
 position:relative;
 top: 60px;
 }
+
 p {
   margin: 20px;
   position:relative;
@@ -101,6 +107,7 @@ display:flex;
   margin: 70px;
   top: 120px;
   z-index: 1;
+  border-radius: 20%;
 }
 .infobox1 {
   display:flex;
@@ -119,6 +126,7 @@ display:flex;
   margin: 10px;
   position: relative;
   left: -230px;
+  border-radius: 20%;
 }
 .row {
   display: flex;
@@ -139,9 +147,10 @@ display:flex;
   position:relative;
   top: 90px;
   left: 110px;
+  border-radius: 5%;
 }
 #learnmore:hover {
-background-color: transparent;
+opacity: 60%;
 }
 .searchbar {
   display:flex;
@@ -152,6 +161,7 @@ background-color: transparent;
   border:black 10px;
   position: relative;
   left: -60px;
+  border-radius: 5%;
 }
 .search {
   display:flex;
@@ -161,9 +171,13 @@ background-color: transparent;
   background-color: #EFA8B8;
   color:black;
   border: 2px solid black;
+  border-radius: 5%;
 }
 #searchbutton {
   color: black;
+}
+#searchbutton:hover {
+  opacity: 80%;
 }
 
 .img {
@@ -194,6 +208,7 @@ body {
   width: 1840px;
   height: 600px;
   margin-bottom: -500px;
+  border-radius: 1%;
 }
 .container2 {
   display:flex;
@@ -218,7 +233,7 @@ text {
   align-content: center;
   justify-content: space-between;
   position: relative;
-  top: -1150px;
+  top: -1250px;
   left: 550px;
   margin: 10px;
   margin-bottom: -520px;
@@ -228,7 +243,7 @@ text {
   align-content: center;
   justify-content: space-between;
   position: relative;
-  top: -630px;
+  top: -730px;
   left: 550px;
   margin: 10px;
   margin-bottom: -520px;
@@ -241,7 +256,7 @@ h3 {
   text-align: center;
   margin:20px;
   position:relative;
-  top: -1150px;
+  top: -1250px;
   left: -20px;
   
 }
@@ -250,7 +265,7 @@ p2 {
   position:relative;
   text-align: center;
   left: 465px;
-  top: -1150px;
+  top: -1250px;
   font-family: "Kosugi", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -258,11 +273,28 @@ p2 {
   z-index: 1;
 }
 .container3 {
-  height: 1140px;
+  height: 1260px;
   width: 1000px;
   position: relative;
   left:450px;
   justify-content: center;
   background-color: white;
   opacity: 75%;
+  border-radius: 15%;
+}
+#websitebutton {
+  margin: 0px;
+  height: 50px;
+  width: 200px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #EFA8B8;
+  border:black solid 2px;
+  position: relative;
+  top: -180px;
+  left: 845px;
+}
+#websitebutton:hover {
+  opacity: 60%;
 }
