@@ -4,20 +4,6 @@ function whenClick() {
 let openpagebutton =  document.getElementById('learnmore');
 openpagebutton.addEventListener('click', whenClick)
 
-// function whenClick() {
-//     alert("button clicked")
-// }
-// let searchbarbutton =  document.getElementById('searchbutton');
-// searchbarbutton.addEventListener('click', whenClick)
-
-// let colorbutton = document.querySelector('#random-color')
-
-// function changebackground() {
-//     alert('clicked')
-//     document.body.style.backgroundColor = "rgb(0, 0, 0)"
-// }
-// colorbutton.addEventListener('click', changebackground)
-
 document.getElementById('searchbutton').addEventListener('click', addcontact) 
     function addcontact() {
     let contact = document.getElementById('new-contact').value;
@@ -39,11 +25,19 @@ colorbutton.addEventListener('click', changebackground)
 let websitesdisplay = document.getElementById('websitebutton')
 function runWebsite() {
     window.open('https://jordanl141.wixsite.com/artai')
-}
+};
 websitesdisplay.addEventListener('click', runWebsite)
 
-// const displaybox = document.getElementById("#displaybox");
-// function changelikesbackground(link) {
-//     displaybox.style.backgroundImage = "link"
-// }
 
+let linkedindisplay = document.getElementById('linkedin')
+function runLinkedin() {
+    window.open('https://www.linkedin.com/in/jordan-liu-4a1468307/')
+};
+linkedindisplay.addEventListener('click', runLinkedin)
+
+
+let facebookdisplay = document.getElementById('facebook')
+function runFacebook() {
+    window.open('https://www.facebook.com/jordan.liu.7169/')
+};
+facebookdisplay.addEventListener('click', runFacebook)

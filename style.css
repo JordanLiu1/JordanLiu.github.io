@@ -36,6 +36,8 @@ footer {
   .contact-listcontain {
     display: flex;
     justify-content: flex-end;
+    position: absolute;
+    left: 1780px;
   }
   
 .navbar {
@@ -48,7 +50,6 @@ footer {
   position: relative;
   left: -50px;
   font-weight: 490;
-
   }
   a {
     color: black;
@@ -63,12 +64,16 @@ footer {
     background-color: #EFA8B8;
     opacity: 45%;
     border-radius: 27%;
+    transform: scale(1.2);
   }
 #logo{
 width: 50px;
 margin: 10px;
 position: relative;
 left: 20px;
+}
+#logo:hover {
+  transform: scale(1.2);
 }
 h1 {
 font-family: "Inknut Antiqua", serif;
@@ -108,6 +113,9 @@ display:flex;
   top: 120px;
   z-index: 1;
   border-radius: 20%;
+}
+.infobox1:hover {
+  transform: scale(1.2);
 }
 .infobox1 {
   display:flex;
@@ -151,6 +159,7 @@ display:flex;
 }
 #learnmore:hover {
 opacity: 60%;
+transform: scale(1.05);
 }
 .searchbar {
   display:flex;
@@ -173,11 +182,15 @@ opacity: 60%;
   border: 2px solid black;
   border-radius: 5%;
 }
+.search:hover{
+  transform: scale(1.05);
+}
 #searchbutton {
   color: black;
 }
 #searchbutton:hover {
   opacity: 80%;
+  transform: scale(1.05);
 }
 
 .img {
@@ -189,7 +202,6 @@ opacity: 60%;
   justify-content: flex-end;
   height: 650px;
 }
-  
 body {
   background-color: #EFA8B8;
   background-image: url(https://i.imgur.com/IVBG1Ck.png);
@@ -238,6 +250,9 @@ text {
   margin: 10px;
   margin-bottom: -520px;
 }
+.bussinessidea:hover {
+  transform: scale(1.05);
+}
 .colorpalette {
   display:flex;
   align-content: center;
@@ -247,6 +262,9 @@ text {
   left: 550px;
   margin: 10px;
   margin-bottom: -520px;
+}
+.colorpalette:hover {
+  transform: scale(1.05);
 }
 h3 {
   font-family: "Inknut Antiqua", serif;
@@ -297,4 +315,20 @@ p2 {
 }
 #websitebutton:hover {
   opacity: 60%;
+  transform: scale(1.05);
+}
+#linkedin {
+  height: 80px;
+  margin: 30px;
+}
+#linkedin:hover {
+  opacity: 85%;
+  transform: scale(1.1);
+}
+#facebook {
+  height: 80px;
+}
+#facebook:hover {
+  opacity: 85%;
+  transform: scale(1.1);
 }
