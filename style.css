@@ -4,7 +4,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: #B10D0D;
+  background-color: #4C5454;
   width:1950px;
   opacity: 85%;
   position: -webkit-sticky;
@@ -18,7 +18,7 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: #B10D0D;
+  background-color: #4C5454;
   width:1950px;
   height: 150px;
   opacity: 85%;
