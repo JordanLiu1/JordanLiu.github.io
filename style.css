@@ -76,25 +76,28 @@ left: 20px;
   transform: scale(1.2);
 }
 h1 {
+width: 1000px;
+left: 10px;
 font-family: "Inknut Antiqua", serif;
 font-weight: 450;
 font-style: normal;
 font-size: 96px;
 text-align: left;
-margin:20px;
 position:relative;
 top: 60px;
+background-color: #4C5454;
 }
 
 p {
-  margin: 20px;
   position:relative;
+  width: 1000px;
   left: 10px;
-  top: 60px;
+  top: 50px;
   font-family: "Kosugi", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 20px;
+  background-color: #4C5454;
 }
 .infoboxb {
 display:flex;
