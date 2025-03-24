@@ -86,11 +86,13 @@ text-align: left;
 position:relative;
 top: 60px;
 background-color: #4C5454;
+opacity: 95%;
 }
 
 p {
   position:relative;
   width: 1000px;
+  height: 500px;
   left: 10px;
   top: 50px;
   font-family: "Kosugi", sans-serif;
@@ -98,6 +100,7 @@ p {
   font-style: normal;
   font-size: 20px;
   background-color: #4C5454;
+  opacity: 95%;
 }
 .infoboxb {
 display:flex;
@@ -154,7 +157,7 @@ display:flex;
   display:flex;
   align-items: center;
   justify-content: center;
-  background-color: #DD0F0F;
+  background-color: #b68f40;
   position:relative;
   top: 90px;
   left: 110px;
@@ -199,15 +202,17 @@ transform: scale(1.05);
 .img {
   position:relative;
   left: 1310px;
-  top: -695px;
+  top: -900px;
   display:flex;
   align-items: center;
   justify-content: flex-end;
   height: 650px;
+  background-color: #4C5454; 
+  
 }
 body {
-  background-color: #EFA8B8;
-  background-image: url(https://i.imgur.com/IVBG1Ck.png);
+  background-color: #C1DBE3;
+  background-image: url(https://i.imgur.com/3dRZp4G.png);
   background-size: cover; 
 }
 .container {
