@@ -1,11 +1,12 @@
 header {
-  align-items: center;
+  
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
   background-color: #4C5454;
   width:1950px;
+  height: 60px;
   opacity: 85%;
   position: -webkit-sticky;
   position: sticky;
@@ -41,14 +42,17 @@ footer {
   }
   
 .navbar {
+
   display: flex;
     list-style:none;
     flex-direction: row;
     justify-content: space-between;
     border: none;
   width: 500px;
+  height: 60px;
   position: relative;
   left: -50px;
+  
   font-weight: 490;
   }
   a {
@@ -61,14 +65,14 @@ footer {
     left: 20px;
   }
   a:hover {
-    background-color: #EFA8B8;
+    background-color: white;
     opacity: 45%;
     border-radius: 27%;
     transform: scale(1.2);
   }
 #logo{
 width: 50px;
-margin: 10px;
+margin: 2.5px;
 position: relative;
 left: 20px;
 }
@@ -108,7 +112,7 @@ display:flex;
   align-items: baseline;
   width: 50px;
   height: 80px;
-  background-color: #EFA8B8;
+  background-color: white;
   opacity: 80%;
   font-family: "Esteban", serif;
   font-weight: 400;
@@ -130,7 +134,7 @@ display:flex;
   text-align: center;
   height: 300px;
   width: 100px;
-  background-color: #EFA8B8; opacity: 80%;
+  background-color: white; opacity: 80%;
   color: black;
   font-family: "Kosugi", sans-serif;
   font-weight: 700;
@@ -172,7 +176,8 @@ transform: scale(1.05);
   flex-wrap:nowrap;
   flex-direction: row;
   width: 200px;
-  margin: 25px;
+  height: 50px;
+  margin: 5px;
   border:black 10px;
   position: relative;
   left: -60px;
@@ -211,8 +216,8 @@ transform: scale(1.05);
   
 }
 body {
-  background-color: #C1DBE3;
-  background-image: url(https://i.imgur.com/3dRZp4G.png);
+  background-color: white;
+ 
   background-size: cover; 
 }
 .container {
@@ -232,12 +237,12 @@ body {
 }
 .container2 {
   display:flex;
-  align-items: center;
   justify-content: space-between;
-  background-color:#EFA8B8 ;
+  width:1950px;
+  height: 300px;
+  background-image: url(https://i.imgur.com/3dRZp4G.png);
   color:black;
   position: relative;
-  left: -68px;
 }
 text {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
